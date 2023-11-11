@@ -1,0 +1,32 @@
+#mainNav{
+    width: 67%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+    top: -20px;
+    left: 225px;
+}
+
+#mainBox{
+    width: 90%;
+    height: 60px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+#mainNav>#mainBox>p{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#mainNav>#mainBox>p>span{
+    color: red;
+    font-size: 26px;
+    text-transform: uppercase;
+}

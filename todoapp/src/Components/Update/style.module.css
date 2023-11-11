@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#UPDATE{
+  width: 100%;
+  height: 75.5vh;
+  /* background-color: rgba(0, 0, 0, 0.336); */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+#updateMain {
+  width: 60%;
+  height: 130px;
+  position: sticky;
+  /* top: 160px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.397);
+  box-shadow: 10px 10px 30px black;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+
+#updateMain > a > div {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  position: absolute;
+  left: 97%;
+  bottom: 104px;
+  background-color: white;
+  border: none;
+}
+
+#close{
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+#close:hover{
+  background-color: rgb(170, 170, 170);
+}
+
+#updateText{
+  font-size: 25px;
+  text-transform: uppercase;
+  width: 89%;
+  letter-spacing: 4px;
+}
+
+#updateMain > form > input {
+  width: 638px;
+  height: 40px;
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 5px 0 0px 5px;
+  /* font-size: 18px; */
+}
+#updateMain > form > input:focus {
+  outline: none;
+}
+#ok {
+  width: 100px;
+  height: 40px;
+  border-radius: 0 5px 5px 0px;
+  border: 1px solid black;
+  border-left: none;
+  
+}

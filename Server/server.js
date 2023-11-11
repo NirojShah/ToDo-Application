@@ -18,7 +18,7 @@ dotenv.config({
 // Connect to db atlas
 // local
 // cloud 
-mongoose.connect(process.env.MONGODB_LOCAL).then(() => {
+mongoose.connect(process.env.MONGODB_CLOUD).then(() => {
     console.log("Connected to DB")
 }).catch((err) => {
     console.log(err)
